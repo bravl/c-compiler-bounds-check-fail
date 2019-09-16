@@ -6,7 +6,7 @@ Tools that manage to find the bounds error:
 
 Tools that don't find it:
 - Cppcheck
-- GCC / Clang
+- GCC -fbounds-check -Wall -pedantic -Wextra
 - Valgrind
 - Clang-check
 - Clang-tidy
